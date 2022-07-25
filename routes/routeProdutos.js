@@ -40,7 +40,7 @@ routes.get('/:id', validateExist, (req, res) => {
 
 
 
-//Adicionando novo Produto
+//Adicionando novo Produto = EX3
 routes.post('/', validatePrice, (req, res) => {
     const content = req.body;
     const newProducts = [...produtos, content]
@@ -49,7 +49,7 @@ routes.post('/', validatePrice, (req, res) => {
 
 
 
-//Modificando alguns dos Produtos por ID
+//Modificando alguns dos Produtos por ID = EX4
 routes.put('/:id', (req, res) => {
     const id = Number(req.params.id);
     const content = req.body;
@@ -71,7 +71,7 @@ routes.put('/:id', (req, res) => {
 })
 
 
-//Deletando por ID
+//Deletando por ID = EX5
 routes.delete('/:id', (req, res) => {
     const id = Number(req.params.id)
     const products = produtos.find((produto) => produto.id === id)
