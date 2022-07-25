@@ -62,7 +62,7 @@ routes.put('/:id', (req, res) => {
 
     const produtoAtt = produtos.map((produto) => {
         if (produto.id === id) {
-            return content;
+            return content; 
         }
         return produto;
     })
