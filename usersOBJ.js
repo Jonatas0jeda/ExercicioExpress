@@ -9,7 +9,7 @@ const usersOBJ = [
       id: 2,
       username: 'Sanji',
       email: 'onepiece@gmail.com',
-      password: 'Sanji_Perdedor',
+      password: 'Sanji_Perdedor', 
     },
     {
         id: 3,

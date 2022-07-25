@@ -7,7 +7,7 @@ let rotasUsers = require('./routes/users');
 app.use(express.json()); 
 
 app.use('/produtos', rotasProdutos);
-app.use("/api/users", rotasUsers)
+app.use("/api/users", rotasUsers) 
 
 app.use('*',(req,res,next)=>{
     res.send('Error 404, Not found');

@@ -10,4 +10,4 @@ let produtos = [
   {id: 9, name: 'Gamepad', price: 30, quantity: 25, colors: ['black', 'silver'] },
   {id: 10, name: 'Monitor', price: 200, quantity: 3, colors: [] },
   ]
-module.exports = produtos; 
+module.exports = produtos;  

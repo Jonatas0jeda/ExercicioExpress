@@ -17,7 +17,7 @@ function validateExist(req,res,next){
 function validatePrice(req,res,next){
     const {price} = req.body;
 
-    if(price && price >= 0){
+    if(price && price >= 0){ 
         next();
     }
 
